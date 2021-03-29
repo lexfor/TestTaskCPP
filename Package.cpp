@@ -35,11 +35,16 @@ std::shared_ptr<Package> Package::getChildren(std::string &child) {
             return i;
         }
     }
+    return std::shared_ptr<Package>(this);
 }
 
 void Package::show() {
-    std::cout << name_<<std::endl;
+    std::cout << getName()<< std::endl;
     for(auto i : children_){
         i->show();
     }
+}
+
+std::string Package::getName() {
+    return name_;
 }

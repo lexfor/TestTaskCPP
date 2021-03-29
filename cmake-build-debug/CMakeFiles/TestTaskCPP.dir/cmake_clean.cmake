@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TestTaskCPP.dir/Package.cpp.o"
+  "CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o"
   "CMakeFiles/TestTaskCPP.dir/main.cpp.o"
   "TestTaskCPP"
   "TestTaskCPP.pdb"

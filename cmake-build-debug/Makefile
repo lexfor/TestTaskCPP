@@ -170,6 +170,33 @@ Package.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/Package.cpp.s
 .PHONY : Package.cpp.s
 
+PackageController.o: PackageController.cpp.o
+
+.PHONY : PackageController.o
+
+# target to build an object file
+PackageController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o
+.PHONY : PackageController.cpp.o
+
+PackageController.i: PackageController.cpp.i
+
+.PHONY : PackageController.i
+
+# target to preprocess a source file
+PackageController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/PackageController.cpp.i
+.PHONY : PackageController.cpp.i
+
+PackageController.s: PackageController.cpp.s
+
+.PHONY : PackageController.s
+
+# target to generate assembly for a file
+PackageController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/PackageController.cpp.s
+.PHONY : PackageController.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +236,9 @@ help:
 	@echo "... Package.o"
 	@echo "... Package.i"
 	@echo "... Package.s"
+	@echo "... PackageController.o"
+	@echo "... PackageController.i"
+	@echo "... PackageController.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

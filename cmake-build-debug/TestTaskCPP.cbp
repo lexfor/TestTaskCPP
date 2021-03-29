@@ -88,6 +88,12 @@
 		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/Package.h">
 			<Option target="TestTaskCPP"/>
 		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/PackageController.cpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/PackageController.h">
+			<Option target="TestTaskCPP"/>
+		</Unit>
 		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/main.cpp">
 			<Option target="TestTaskCPP"/>
 		</Unit>

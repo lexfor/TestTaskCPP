@@ -9,6 +9,7 @@
 #include <vector>
 #include <memory>
 #include <iostream>
+#include "PackageController.h"
 
 class Package {
 private:
@@ -21,6 +22,7 @@ public:
     void deletePackage(std::string&);
     std::shared_ptr<Package> getChildren(std::string&);
     void show();
+    std::string getName();
 };
 
 
