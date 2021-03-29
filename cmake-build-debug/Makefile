@@ -143,6 +143,33 @@ TestTaskCPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/build
 .PHONY : TestTaskCPP/fast
 
+Package.o: Package.cpp.o
+
+.PHONY : Package.o
+
+# target to build an object file
+Package.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/Package.cpp.o
+.PHONY : Package.cpp.o
+
+Package.i: Package.cpp.i
+
+.PHONY : Package.i
+
+# target to preprocess a source file
+Package.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/Package.cpp.i
+.PHONY : Package.cpp.i
+
+Package.s: Package.cpp.s
+
+.PHONY : Package.s
+
+# target to generate assembly for a file
+Package.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestTaskCPP.dir/build.make CMakeFiles/TestTaskCPP.dir/Package.cpp.s
+.PHONY : Package.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TestTaskCPP"
+	@echo "... Package.o"
+	@echo "... Package.i"
+	@echo "... Package.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

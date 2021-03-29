@@ -3,4 +3,4 @@ project(TestTaskCPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TestTaskCPP main.cpp)
+add_executable(TestTaskCPP main.cpp Package.cpp Package.h)

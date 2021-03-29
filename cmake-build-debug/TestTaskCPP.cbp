@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/Package.cpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/Package.h">
+			<Option target="TestTaskCPP"/>
+		</Unit>
 		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/main.cpp">
 			<Option target="TestTaskCPP"/>
 		</Unit>
