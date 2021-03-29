@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/TestTaskCPP.dir/main.cpp.o CMakeFiles/TestTaskCPP.dir/Package.cpp.o CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o  -o TestTaskCPP 
+/usr/bin/c++  -g   CMakeFiles/TestTaskCPP.dir/main.cpp.o CMakeFiles/TestTaskCPP.dir/Package.cpp.o CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o CMakeFiles/TestTaskCPP.dir/View.cpp.o  -o TestTaskCPP 

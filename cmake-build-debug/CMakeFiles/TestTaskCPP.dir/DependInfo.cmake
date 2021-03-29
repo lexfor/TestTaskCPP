@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tima/CLionProjects/TestTaskCPP/Package.cpp" "/home/tima/CLionProjects/TestTaskCPP/cmake-build-debug/CMakeFiles/TestTaskCPP.dir/Package.cpp.o"
   "/home/tima/CLionProjects/TestTaskCPP/PackageController.cpp" "/home/tima/CLionProjects/TestTaskCPP/cmake-build-debug/CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o"
+  "/home/tima/CLionProjects/TestTaskCPP/View.cpp" "/home/tima/CLionProjects/TestTaskCPP/cmake-build-debug/CMakeFiles/TestTaskCPP.dir/View.cpp.o"
   "/home/tima/CLionProjects/TestTaskCPP/main.cpp" "/home/tima/CLionProjects/TestTaskCPP/cmake-build-debug/CMakeFiles/TestTaskCPP.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

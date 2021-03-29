@@ -4,32 +4,32 @@
 
 #include "PackageController.h"
 
-void PackageController::create(std::string & name) {
-    Package root(name);
+void PackageController::create(std::vector<std::string>& name) {
+    Package root(name[0]);
     std::shared_ptr<Package> ptr(&root);
     roots_.push_back(ptr);
 }
 
-void PackageController::add(std::string & fullName) {
-    std::shared_ptr<Package> ptr = parse(fullName);
+void PackageController::add(std::vector<std::string>& fullName) {
+    std::shared_ptr<Package> ptr = parse(fullName[0]);
     if(ptr == nullptr){
         std::cout << "Package not found"<<std::endl;
     }else{
-        ptr->addPackage(fullName);
+        ptr->addPackage(fullName[1]);
     }
 }
 
-void PackageController::remove(std::string &fullName) {
-    std::shared_ptr<Package> ptr = parse(fullName);
+void PackageController::remove(std::vector<std::string>& fullName) {
+    std::shared_ptr<Package> ptr = parse(fullName[0]);
     if(ptr == nullptr){
         std::cout << "Package not found"<<std::endl;
     }else{
-        ptr->deletePackage(fullName);
+        ptr->deletePackage(fullName[1]);
     }
 }
 
-void PackageController::print(std::string& fullName) {
-    std::shared_ptr<Package> ptr = parse(fullName);
+void PackageController::print(std::vector<std::string>& fullName) {
+    std::shared_ptr<Package> ptr = parse(fullName[0]);
     if(ptr == nullptr){
         std::cout << "Package not found"<<std::endl;
     }else{
@@ -38,7 +38,7 @@ void PackageController::print(std::string& fullName) {
 
 }
 
-std::shared_ptr<Package> PackageController::parse(std::string & fullName) {
+std::shared_ptr<Package> PackageController::parse(std::string& fullName) {
     std::list<std::string> names;
     std::string packageName = "";
     for(auto i : fullName){
@@ -55,9 +55,11 @@ std::shared_ptr<Package> PackageController::parse(std::string & fullName) {
             ptr = i;
         }
     }
+    if(ptr == nullptr){
+        return ptr;
+    }
     for(auto i = names.begin(); i != --names.end();i++){
         ptr = ptr->getChildren(*i);
     }
-    fullName = names.back();
     return ptr;
 }

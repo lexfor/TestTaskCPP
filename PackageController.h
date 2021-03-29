@@ -12,10 +12,10 @@ private:
     std::vector<std::shared_ptr<Package>> roots_;
     std::shared_ptr<Package> parse(std::string&);
 public:
-    void create(std::string& );
-    void add(std::string&);
-    void remove(std::string&);
-    void print(std::string&);
+    void create(std::vector<std::string>&);
+    void add(std::vector<std::string>&);
+    void remove(std::vector<std::string>&);
+    void print(std::vector<std::string>&);
 };
 
 
