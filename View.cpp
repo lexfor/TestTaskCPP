@@ -39,13 +39,13 @@ bool View::execute( std::vector<std::string>& operation) {
         operation.erase(operation.begin());
         std::ofstream os("data.json");
         cereal::JSONOutputArchive output(os);
-        controller_.save(output);
+        controller_.save<cereal::JSONOutputArchive>(output);
     }
     if(operation[0] == "load"){
         operation.erase(operation.begin());
         std::ifstream os("data.json");
         cereal::JSONInputArchive input(os);
-        controller_.save(input);
+        controller_.save<cereal::JSONInputArchive>(input);
     }
     if(operation[0] == "help"){
         help();
