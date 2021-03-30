@@ -37,9 +37,15 @@ bool View::execute( std::vector<std::string>& operation) {
     }
     if(operation[0] == "save"){
         operation.erase(operation.begin());
-        std::stringstream ss;
-        cereal::JSONOutputArchive output(ss);
+        std::ofstream os("data.json");
+        cereal::JSONOutputArchive output(os);
         controller_.save(output);
+    }
+    if(operation[0] == "load"){
+        operation.erase(operation.begin());
+        std::ifstream os("data.json");
+        cereal::JSONInputArchive input(os);
+        controller_.save(input);
     }
     if(operation[0] == "help"){
         help();
@@ -74,5 +80,9 @@ void View::help() {
                  "remove - удаление пакета из созданного пакета\n"
                  "Пример команды :\t remove two\n"
                  "print - вывод иерархии выбранного пакета\n"
-                 "Пример команды :\t print one\n";
+                 "Пример команды :\t print one\n"
+                 "save - сохранение данных в файл\n"
+                 "Пример команды :\t save\n"
+                 "load - загрузка данных из файла\n"
+                 "Пример команды :\t load\n";
 }
