@@ -7,14 +7,32 @@ CMakeFiles/TestTaskCPP.dir/Package.cpp.o: ../Package.h
 CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../Package.h
 CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../PackageController.cpp
 CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../PackageController.h
+CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../cereal/archives/json.hpp
+CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../cereal/cereal.hpp
+CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../cereal/types/list.hpp
+CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../cereal/types/memory.hpp
+CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../cereal/types/string.hpp
+CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../cereal/types/vector.hpp
 
 CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../Package.h
 CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../PackageController.h
 CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../View.cpp
 CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../View.h
+CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../cereal/archives/json.hpp
+CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../cereal/cereal.hpp
+CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../cereal/types/list.hpp
+CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../cereal/types/memory.hpp
+CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../cereal/types/string.hpp
+CMakeFiles/TestTaskCPP.dir/View.cpp.o: ../cereal/types/vector.hpp
 
 CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../Package.h
 CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../PackageController.h
 CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../View.h
+CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../cereal/archives/json.hpp
+CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../cereal/cereal.hpp
+CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../cereal/types/list.hpp
+CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../cereal/types/memory.hpp
+CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../cereal/types/string.hpp
+CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../cereal/types/vector.hpp
 CMakeFiles/TestTaskCPP.dir/main.cpp.o: ../main.cpp
 

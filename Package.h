@@ -22,6 +22,20 @@ public:
     std::shared_ptr<Package> getChildren(std::string&);
     void show();
     std::string getName();
+    template<class Archive>
+    void save(Archive & archive){
+        archive(name_,children_);
+        for(auto i : children_){
+            i->save(archive);
+        }
+    }
+    template<class Archive>
+    void load(Archive & archive){
+        archive(name_,children_);
+        for(auto i : children_){
+            i->load(archive);
+        }
+    }
 };
 
 

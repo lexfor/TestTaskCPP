@@ -8,13 +8,31 @@ CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o
  /home/tima/CLionProjects/TestTaskCPP/Package.h
  /home/tima/CLionProjects/TestTaskCPP/PackageController.cpp
  /home/tima/CLionProjects/TestTaskCPP/PackageController.h
+ /home/tima/CLionProjects/TestTaskCPP/cereal/archives/json.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/cereal.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/list.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/memory.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/string.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/vector.hpp
 CMakeFiles/TestTaskCPP.dir/View.cpp.o
  /home/tima/CLionProjects/TestTaskCPP/Package.h
  /home/tima/CLionProjects/TestTaskCPP/PackageController.h
  /home/tima/CLionProjects/TestTaskCPP/View.cpp
  /home/tima/CLionProjects/TestTaskCPP/View.h
+ /home/tima/CLionProjects/TestTaskCPP/cereal/archives/json.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/cereal.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/list.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/memory.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/string.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/vector.hpp
 CMakeFiles/TestTaskCPP.dir/main.cpp.o
  /home/tima/CLionProjects/TestTaskCPP/Package.h
  /home/tima/CLionProjects/TestTaskCPP/PackageController.h
  /home/tima/CLionProjects/TestTaskCPP/View.h
+ /home/tima/CLionProjects/TestTaskCPP/cereal/archives/json.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/cereal.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/list.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/memory.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/string.hpp
+ /home/tima/CLionProjects/TestTaskCPP/cereal/types/vector.hpp
  /home/tima/CLionProjects/TestTaskCPP/main.cpp

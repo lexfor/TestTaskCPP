@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/tima/CLionProjects/TestTaskCPP/cereal"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -66,6 +67,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/tima/CLionProjects/TestTaskCPP/cereal"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -100,10 +102,49 @@
 		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/View.h">
 			<Option target="TestTaskCPP"/>
 		</Unit>
-		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/include/cereal/archives/json.hpp">
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/access.hpp">
 			<Option target="TestTaskCPP"/>
 		</Unit>
-		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/include/cereal/types/memory.hpp">
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/archives/json.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/cereal.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/details/helpers.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/details/polymorphic_impl_fwd.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/details/static_object.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/details/traits.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/details/util.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/macros.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/specialize.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/types/base_class.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/types/list.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/types/memory.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/types/string.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/cereal/types/vector.hpp">
 			<Option target="TestTaskCPP"/>
 		</Unit>
 		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/main.cpp">

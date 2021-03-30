@@ -35,6 +35,12 @@ bool View::execute( std::vector<std::string>& operation) {
         operation.erase(operation.begin());
         controller_.print(operation);
     }
+    if(operation[0] == "save"){
+        operation.erase(operation.begin());
+        std::stringstream ss;
+        cereal::JSONOutputArchive output(ss);
+        controller_.save(output);
+    }
     if(operation[0] == "help"){
         help();
     }
