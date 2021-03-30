@@ -13,8 +13,7 @@ Package::Package(std::string Name) : name_(std::move(Name))
 Package::Package() : name_("N/A"){}
 
 void Package::addPackage(std::string& child) {
-    Package temp(child);
-    std::shared_ptr<Package> ptr(&temp);
+    std::shared_ptr<Package> ptr(new Package(child));
     children_.push_back(ptr);
 }
 

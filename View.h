@@ -10,7 +10,7 @@ class View {
 private:
     PackageController controller_;
     bool execute( std::vector<std::string>&);
-    std::vector<std::string> parse(std::string&);
+    std::vector<std::string> parse(std::string);
 public:
     void start();
     void help();

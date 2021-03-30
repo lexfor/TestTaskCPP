@@ -9,7 +9,7 @@
 
 class PackageController {
 private:
-    std::vector<std::shared_ptr<Package>> roots_;
+    std::vector<std::shared_ptr<Package>> rootsPtr_;
     std::shared_ptr<Package> parse(std::string&);
 public:
     void create(std::vector<std::string>&);

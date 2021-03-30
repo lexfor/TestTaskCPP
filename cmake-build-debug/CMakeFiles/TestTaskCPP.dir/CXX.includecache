@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/tima/CLionProjects/TestTaskCPP/Package.cpp
-Package.h
-/home/tima/CLionProjects/TestTaskCPP/Package.h
-utility
--
-
 /home/tima/CLionProjects/TestTaskCPP/Package.h
 string
 -
@@ -21,8 +15,6 @@ memory
 -
 iostream
 -
-PackageController.h
-/home/tima/CLionProjects/TestTaskCPP/PackageController.h
 
 /home/tima/CLionProjects/TestTaskCPP/PackageController.cpp
 PackageController.h
@@ -33,18 +25,4 @@ Package.h
 /home/tima/CLionProjects/TestTaskCPP/Package.h
 list
 -
-
-/home/tima/CLionProjects/TestTaskCPP/View.cpp
-View.h
-/home/tima/CLionProjects/TestTaskCPP/View.h
-
-/home/tima/CLionProjects/TestTaskCPP/View.h
-PackageController.h
-/home/tima/CLionProjects/TestTaskCPP/PackageController.h
-
-/home/tima/CLionProjects/TestTaskCPP/main.cpp
-iostream
--
-View.h
-/home/tima/CLionProjects/TestTaskCPP/View.h
 

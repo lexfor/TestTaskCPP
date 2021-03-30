@@ -3,7 +3,6 @@
 
 CMakeFiles/TestTaskCPP.dir/Package.cpp.o: ../Package.cpp
 CMakeFiles/TestTaskCPP.dir/Package.cpp.o: ../Package.h
-CMakeFiles/TestTaskCPP.dir/Package.cpp.o: ../PackageController.h
 
 CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../Package.h
 CMakeFiles/TestTaskCPP.dir/PackageController.cpp.o: ../PackageController.cpp

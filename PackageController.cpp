@@ -5,9 +5,8 @@
 #include "PackageController.h"
 
 void PackageController::create(std::vector<std::string>& name) {
-    Package root(name[0]);
-    std::shared_ptr<Package> ptr(&root);
-    roots_.push_back(ptr);
+    std::shared_ptr<Package> ptr(new Package(name[0]));
+    rootsPtr_.push_back(ptr);
 }
 
 void PackageController::add(std::vector<std::string>& fullName) {
@@ -49,8 +48,9 @@ std::shared_ptr<Package> PackageController::parse(std::string& fullName) {
         }
         packageName += i;
     }
+    names.push_back(packageName);
     std::shared_ptr<Package> ptr = nullptr;
-    for(auto i : roots_){
+    for(auto i : rootsPtr_){
         if(i->getName() == names.front()){
             ptr = i;
         }

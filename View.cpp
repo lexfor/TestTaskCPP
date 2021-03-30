@@ -25,15 +25,15 @@ bool View::execute( std::vector<std::string>& operation) {
     }
     if(operation[0] == "add"){
         operation.erase(operation.begin());
-        controller_.create(operation);
+        controller_.add(operation);
     }
     if(operation[0] == "remove"){
         operation.erase(operation.begin());
-        controller_.create(operation);
+        controller_.remove(operation);
     }
     if(operation[0] == "print"){
         operation.erase(operation.begin());
-        controller_.create(operation);
+        controller_.print(operation);
     }
     if(operation[0] == "help"){
         help();
@@ -41,7 +41,7 @@ bool View::execute( std::vector<std::string>& operation) {
     return true;
 }
 
-std::vector<std::string> View::parse(std::string & in) {
+std::vector<std::string> View::parse(std::string in) {
     std::vector<std::string> result;
     std::string temp = "";
     for(auto i : in){
@@ -52,6 +52,8 @@ std::vector<std::string> View::parse(std::string & in) {
         }
         temp += i;
     }
+    result.push_back(temp);
+    return result;
 }
 
 void View::help() {

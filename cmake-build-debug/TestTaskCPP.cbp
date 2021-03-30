@@ -100,6 +100,12 @@
 		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/View.h">
 			<Option target="TestTaskCPP"/>
 		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/include/cereal/archives/json.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
+		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/include/cereal/types/memory.hpp">
+			<Option target="TestTaskCPP"/>
+		</Unit>
 		<Unit filename="/home/tima/CLionProjects/TestTaskCPP/main.cpp">
 			<Option target="TestTaskCPP"/>
 		</Unit>
